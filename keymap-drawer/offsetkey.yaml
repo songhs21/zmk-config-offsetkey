@@ -80,7 +80,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
-  - PLAY
+  - PLAY PAUSE
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -122,7 +122,7 @@ layers:
   - {type: held}
   - Ctl+H
   - Ctl+J
-  - '6'
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '4'
