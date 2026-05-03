@@ -646,9 +646,7 @@ rect.held, rect.combo.held {
 <g transform="translate(1064, 252)" class="key keypos-68">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 86%">LANG</tspan><tspan x="0" dy="1.2em" style="font-size: 86%">HANGEUL</tspan>
-</text>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(1120, 252)" class="key keypos-69">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1064,9 +1062,7 @@ rect.held, rect.combo.held {
 <g transform="translate(35, 252)" class="key keypos-62">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-27" y="-24" width="54" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 75%">LANG</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">HIRAGANA</tspan>
-</text>
+<text x="0" y="-4" class="key tap">A</text>
 </g>
 <g transform="translate(105, 252)" class="key trans keypos-63">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key trans side"/>
