@@ -15,7 +15,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - Alt+F24
   - '6'
   - $$mdi:keyboard-tab$$
   - Q
@@ -61,7 +61,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-up-bold$$
-  - Alt+F4
+  - Alt+$$mdi:backspace-reverse-outline$$
   - B
   - '&mkp MB4'
   - '&mkp MB5'
