@@ -35,6 +35,10 @@
     trigger-period-ms = <8>;
 };
 
+&left_encoder {
+    resolution = <2>;
+};
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
