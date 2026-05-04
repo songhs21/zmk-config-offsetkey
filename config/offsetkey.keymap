@@ -36,8 +36,7 @@
 };
 
 &left_encoder {
-    resolution = <2>; // 2로도 안 된다면 1이 답입니다. 문턱을 아예 없애버리는 거죠.
-    status = "okay";
+    steps = <40>;
 };
 
 / {
@@ -47,10 +46,6 @@
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
         tap-ms = <20>;
-    };
-
-    sensors: sensors {
-        triggers-per-rotation = <40>; // 기존 20에서 40으로 증가
     };
 
     behaviors {
