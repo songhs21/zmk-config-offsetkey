@@ -45,6 +45,10 @@
         tap-ms = <20>;
     };
 
+    sensors: sensors {
+        triggers-per-rotation = <40>; // 기존 20에서 40으로 증가
+    };
+
     behaviors {
         ltq: ltq {
             compatible = "zmk,behavior-hold-tap";
@@ -57,11 +61,7 @@
         };
     };
 
-/ {
-    sensors: sensors {
-        triggers-per-rotation = <40>; // 기존 20에서 40으로 증가
-    };
-};
+
 
     combos {
         compatible = "zmk,combos";
