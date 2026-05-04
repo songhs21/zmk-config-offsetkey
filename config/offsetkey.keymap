@@ -39,6 +39,10 @@
     resolution = <2>;
 };
 
+&sensors {
+    triggers-per-rotation = <40>; // 기존 20에서 40으로 늘려 민감도 향상
+};
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
