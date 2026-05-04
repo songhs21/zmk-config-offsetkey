@@ -36,7 +36,7 @@
 };
 
 &left_encoder {
-    resolution = <2>;
+    resolution = <1>;
     steps = <40>;
 };
 
@@ -46,7 +46,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-        tap-ms = <15>;
+        tap-ms = <20>;
     };
 
     behaviors {
