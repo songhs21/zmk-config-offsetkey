@@ -35,9 +35,6 @@
     trigger-period-ms = <8>;
 };
 
-&left_encoder {
-    resolution = <1>;
-};
 
 / {
     scroll_encoder: scroll_encoder {
@@ -45,7 +42,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-        tap-ms = <20>;
+        tap-ms = <10>;
     };
 
     behaviors {
