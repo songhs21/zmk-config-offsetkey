@@ -57,6 +57,12 @@
         };
     };
 
+/ {
+    sensors: sensors {
+        triggers-per-rotation = <40>; // 기존 20에서 40으로 증가
+    };
+};
+
     combos {
         compatible = "zmk,combos";
 
